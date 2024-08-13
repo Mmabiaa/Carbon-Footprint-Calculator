@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Footprint Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Carbon Footprint Calculator <pre>(per year)</pre></h1>
+    <form id="footprint-form">
+        <label for="electricity"> Electricity Usage (kWh):</label>
+        <input type="number" id="electricity" name="electricity" required><br>
+        <label for="gas">Gas Usage (cubic meters):</label>
+        <input type="number" id="gas" name="gas" required><br>
+        <label for="car">Car Travel (km):</label>
+        <input type="number" id="car" name="car" required><br>
+        <label for="flights">Flights (hours):</label>
+        <input type="number" id="flights" name="flights" required><br>
+
+        <button type="submit">Calculate Footprint</button>
+    </form>
+
+    <div id="result"></div>
+    <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2024 Mmabia, All Rights Are Observed</p>
+    </footer>
+</body>
+</html>
